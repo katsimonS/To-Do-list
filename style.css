@@ -1,0 +1,142 @@
+/* Загальні налаштування */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #1a1a2e;
+    color: #e4e4e4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #f5a623;
+    text-shadow: 2px 2px 0 #000;
+  }
+  
+  header button {
+    background-color: #f5a623;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  header button:hover {
+    background-color: #d48821;
+  }
+  
+  #lists-container {
+    margin-top: 20px;
+  }
+  
+  .list {
+    background: #2e2e4f;
+    border: 2px solid #4e4e8e;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .list h2 {
+    color: #79d70f;
+    font-size: 1.5rem;
+  }
+  
+  .list .delete-list-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f64c72;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .list .delete-list-btn:hover {
+    background-color: #ff7070;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    background: #3c3c6c;
+    border-radius: 5px;
+  }
+  
+  .task.completed span {
+    text-decoration: line-through;
+    color: #79d70f;
+  }
+  
+  .task button {
+    background: none;
+    border: none;
+    color: #79d70f;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .task button:hover {
+    color: #a6e22e;
+  }
+  
+  .task-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    font-size: 0.8rem;
+  }
+  
+  .add-task-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .add-task-container input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #4e4e8e;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    background: #1a1a2e;
+    color: #e4e4e4;
+  }
+  
+  .add-task-container button {
+    background-color: #f5a623;
+    border: none;
+    padding: 8px 15px;
+    color: #000;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 5px;
+  }
+  
+  .add-task-container button:hover {
+    background-color: #d48821;
+  }
+  
